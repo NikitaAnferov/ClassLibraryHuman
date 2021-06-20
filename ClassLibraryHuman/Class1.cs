@@ -9,7 +9,7 @@ namespace ClassLibraryHuman
     public abstract class Human
     {
         public string fio { get; set; }
-        Gender gen;
+        public Gender gen { get; set; }
         public enum Gender { мужской, женский};
         public DateTime birthdate { get; set; }
 
